@@ -3,101 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keith Ma - Software Engineer</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f7f6;
-            color: #333;
-        }
-        .container {
-            max-width: 960px;
-            margin: 40px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            border-radius: 8px;
-        }
-        .hero {
-            text-align: center;
-            padding-bottom: 30px;
-            border-bottom: 1px solid #eee;
-            margin-bottom: 30px;
-        }
-        .hero h1 {
-            margin: 0;
-            font-size: 2.5em;
-            color: #0056b3;
-        }
-        .hero p {
-            font-size: 1.2em;
-            color: #555;
-            margin-top: 10px;
-        }
-        .section {
-            margin-bottom: 30px;
-        }
-        .section h2 {
-            color: #0056b3;
-            margin-bottom: 15px;
-            border-bottom: 2px solid #0056b3;
-            padding-bottom: 5px;
-        }
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        .contact-links a {
-            color: #0056b3;
-            text-decoration: none;
-            margin-right: 15px;
-            font-weight: bold;
-        }
-        .contact-links a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <meta name="description" content="Keith Ma - Software Engineer from Hong Kong. Cyclist, runner, chess & squash player.">
+    <meta name="author" content="Keith Ma">
+    <title>Keith Ma</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <section class="hero">
-            <h1>Keith Ma</h1>
-            <p>Software Engineer</p>
-        </section>
-
-        <section class="section">
-            <h2>About Me</h2>
-            <p>
-                I'm Keith Ma, a random coder and a typical Hong Konger. I thrive on figuring things out and enjoy the process of building and problem-solving.
-            </p>
-            <p>
-                Outside of coding, I have a passion for staying active. You can often find me enjoying a good run, engaging in a strategic game of chess, or playing squash.
-            </p>
-        </section>
-
-        <section class="section">
-            <h2>Skills</h2>
-            <ul>
-                <li>Java</li>
-                <li>Python</li>
-                <li>Adaptable Learner (Anything that's in front of me)</li>
-            </ul>
-        </section>
-
-        <section class="section">
-            <h2>Contact</h2>
-            <div class="contact-links">
-                <a href="mailto:makachung0@gmail.com">Email</a>
-                <a href="https://linkedin.com/in/makachung0" target="_blank">LinkedIn</a>
-                <a href="https://github.com/makachung0" target="_blank">GitHub</a>
+    <div class="card">
+        <div class="header">
+            <div class="avatar">
+                <img src="images/avatar.jpg" alt="Keith Ma">
             </div>
-        </section>
+            <h1>Keith Ma</h1>
+            <p class="tagline">Software Engineer • Problem Solver • Hong Konger</p>
+        </div>
+
+        <div class="content">
+            <div class="bio">
+                Software engineer. Cyclist. Runner. Chess & squash player. Hong Kong.
+            </div>
+
+            <div class="section-title">Connect</div>
+            <div class="social-links">
+                <a href="mailto:makachung0@gmail.com" class="social-link">
+                    <span class="social-icon">✉️</span>
+                    <span>Email</span>
+                </a>
+                <a href="https://github.com/makachung0" target="_blank" class="social-link">
+                    <span class="social-icon">💻</span>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com/in/makachung0" target="_blank" class="social-link">
+                    <span class="social-icon">💼</span>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+
+            <div class="section-title">Projects</div>
+            <div class="projects">
+                <div class="project-card">
+                    <div class="project-title">Novel TTS Converter</div>
+                    <p class="project-desc">Automated text-to-speech pipeline that monitors Google Drive for new files, converts them to MP3 via GitHub Actions, and syncs back to Drive.</p>
+                    <a href="https://github.com/makachung0/novel-v1" class="project-link" target="_blank">View Project →</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-title">Receipt Recognition System</div>
+                    <p class="project-desc">Personal expense tracker using Google Apps Script and Gemini AI to recognize receipts, categorize items, and generate monthly spending reports.</p>
+                    <a href="mailto:makachung0@gmail.com" class="project-link">Contact me if interested →</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-title">Gunpla AI Photography</div>
+                    <p class="project-desc">AI-powered background generation for Gunpla and figure photography, creating social media-ready content from collection photos. (In Progress)</p>
+                    <a href="https://www.instagram.com/gunplafigure.ai/" class="project-link" target="_blank">View more →</a>
+                </div>
+            </div>
+
+            <div class="section-title">Instagram</div>
+            <div class="ig-accounts">
+                <a href="https://www.instagram.com/makachung0/" target="_blank" class="ig-card">
+                    <div class="ig-icon">📸</div>
+                    <div class="ig-handle">@makachung0</div>
+                    <div class="ig-desc">Personal</div>
+                </a>
+                <a href="https://www.instagram.com/gunplafigure.ai/" target="_blank" class="ig-card">
+                    <div class="ig-icon">🤖</div>
+                    <div class="ig-handle">@gunplafigure.ai</div>
+                    <div class="ig-desc">Gunpla & Figures</div>
+                </a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
